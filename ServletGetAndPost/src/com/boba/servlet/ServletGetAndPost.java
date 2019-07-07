@@ -16,7 +16,7 @@ public class ServletGetAndPost extends HttpServlet {
     protected void service(HttpServletRequest request, HttpServletResponse response)
             throws IOException, ServletException {
         response.getWriter().write("This is service method.\n");
-        /* 调用父类service方法 */
+        /* 调用父类service方法, 这样执行完该方法后就会调用对应的doGet或者doPost方法 */
         super.service(request, response);
     }
 
