@@ -15,7 +15,9 @@ public class ServletGetAndPost extends HttpServlet {
     @Override
     protected void service(HttpServletRequest request, HttpServletResponse response)
             throws IOException, ServletException {
-        response.getWriter().write("This is service method.\n");
+        String data = "This is service method.\n";
+        response.getWriter().write(data);
+        System.out.println(data);
         /* 调用父类service方法, 这样执行完该方法后就会调用对应的doGet或者doPost方法 */
         super.service(request, response);
     }
@@ -23,14 +25,18 @@ public class ServletGetAndPost extends HttpServlet {
     /* 浏览器使用get方法时使用, 但优先使用service方法,
        若重写的service方法调用了父类的service的方法的话, 则父类会调用重写的get或者post方法,否则不会调用 */
     @Override
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
-        response.getWriter().write("This is doGet method.\n");
+    public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
+        String data = "This is doGet method.\n";
+        response.getWriter().write(data);
+        System.out.println(data);
     }
 
     /* 浏览器使用post方法时使用, 但优先使用service方法,
        若重写的service方法调用了父类的service的方法的话, 则父类会调用重写的get或者post方法,否则不会调用 */
     @Override
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
-        response.getWriter().write("This is doPost method");
+    public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
+        String data = "This is doPost method";
+        response.getWriter().write(data);
+        System.out.println(data);
     }
 }
