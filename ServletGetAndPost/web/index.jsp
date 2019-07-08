@@ -7,13 +7,14 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
+<head>
     <title>$Title$</title>
-  </head>
-  <body>
-  <form action="/test" method="post" style="align-items: center;"> <%-- method指定传输方法 --%>
+</head>
+<body>
+<form action="/test" method="post" style="align-items: center;"> <%-- method指定传输方法 --%>
     user id:<input type="text" name="uid"><br>
     password:<input type="password" name="pwd"><br>
     <input type="submit" value="login in">
-  </form>  </body>
+</form>
+</body>
 </html>
