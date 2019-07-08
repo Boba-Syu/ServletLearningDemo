@@ -19,7 +19,8 @@ public class LoginServlet extends HttpServlet {
         System.out.println("uri: " + uri);
         String scheme = request.getScheme(); // 获取传输协议(http)
         System.out.println("scheme: " + scheme);
-        response.setContentType("text/html;charset=utf-8"); // 设置编码
+        request.setCharacterEncoding("utf-8"); // 设置接收过来的请求的编码
+        response.setContentType("text/html;charset=utf-8"); // 设置发送的http请求编码
         String uid = request.getParameter("uid");
         String pwd = request.getParameter("pwd");
         response.getWriter().write("<html>");
