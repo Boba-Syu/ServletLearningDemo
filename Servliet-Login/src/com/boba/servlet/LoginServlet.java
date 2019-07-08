@@ -26,17 +26,14 @@ public class LoginServlet extends HttpServlet {
         String pwd = request.getParameter("pwd");
         System.out.println(uid + ": " + pwd);
         if (uid.equals("123") && pwd.equals("123")) {
-            response.getWriter().write("<html>");
-            response.getWriter().write("<head>");
-            response.getWriter().write("<title>登陆</title>");
-            response.getWriter().write("</head>");
-            response.getWriter().write("</body>");
-            response.getWriter().write("<h1>登陆成功!</h1>" +
-                    "<p>用户id:" + uid + "</p>" +
-                    "<p>用户密码:" + pwd + "</p>");
-            response.getWriter().write("</body>");
-            response.getWriter().write("</html>");
+            // 请求转发, 登陆成功跳转到main界面
+            // 请求转发会造成表单重复提交
+            // request.getRequestDispatcher("main").forward(request, response);
+            // 使用重定向
+            // 请求转发只进行了一次请求, 地址栏不变, 而重定向进行了两次请求, 地址栏改变
+            response.sendRedirect("main");
         } else {
+            request.setAttribute("msg","登录失败");
             // 请求转发, 登陆失败则返回登录界面
             request.getRequestDispatcher("index.jsp").forward(request, response);
         }
