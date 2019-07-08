@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Servlet-HelloWorld/Servlet-HelloWorld.iml" filepath="$PROJECT_DIR$/Servlet-HelloWorld/Servlet-HelloWorld.iml" />
       <module fileurl="file://$PROJECT_DIR$/ServletGetAndPost/ServletGetAndPost.iml" filepath="$PROJECT_DIR$/ServletGetAndPost/ServletGetAndPost.iml" />
       <module fileurl="file://$PROJECT_DIR$/ServletLearningDemo.iml" filepath="$PROJECT_DIR$/ServletLearningDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Servliet-Login/Servliet-Login.iml" filepath="$PROJECT_DIR$/Servliet-Login/Servliet-Login.iml" />
     </modules>
   </component>
 </project>
