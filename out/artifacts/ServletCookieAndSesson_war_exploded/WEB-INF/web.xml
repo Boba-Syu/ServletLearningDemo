@@ -5,7 +5,7 @@
          version="4.0">
     <servlet>
         <servlet-name>cookie</servlet-name>
-        <servlet-class>com.boba.servlet.ServletCookie</servlet-class>
+        <servlet-class>com.boba.servlet.cookie.ServletCookie</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>cookie</servlet-name>
@@ -13,10 +13,27 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>result</servlet-name>
-        <servlet-class>com.boba.servlet.ServletResult</servlet-class>
+        <servlet-class>com.boba.servlet.cookie.ServletResult</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>result</servlet-name>
         <url-pattern>/result</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>session</servlet-name>
+        <servlet-class>com.boba.servlet.session.ServletSession</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>session</servlet-name>
+        <url-pattern>/session</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>result2</servlet-name>
+        <servlet-class>com.boba.servlet.session.ServletResult2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>result2</servlet-name>
+        <url-pattern>/result2</url-pattern>
+    </servlet-mapping>
+
 </web-app>

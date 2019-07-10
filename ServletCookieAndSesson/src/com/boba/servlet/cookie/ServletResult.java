@@ -1,4 +1,4 @@
-package com.boba.servlet;
+package com.boba.servlet.cookie;
 
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
