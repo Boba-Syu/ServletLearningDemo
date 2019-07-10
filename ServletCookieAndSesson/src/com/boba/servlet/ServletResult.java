@@ -16,7 +16,9 @@ public class ServletResult extends HttpServlet {
             for (Cookie cookie : cookies) {
                 String name = cookie.getName();
                 String value = cookie.getValue();
-                response.getWriter().write(name + ": " + value + "\n");
+                if(name.equals("JSESSIONID"))
+                    break;
+                response.getWriter().write(name + ": " + value + "<br>");
                 System.out.println(name + ": " + value);
             }
         }

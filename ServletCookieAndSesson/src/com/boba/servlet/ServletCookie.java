@@ -18,7 +18,7 @@ public class ServletCookie extends HttpServlet {
         // 设置cookie的有效时长， 否则cookie会在关闭浏览器是被销毁
         cookie.setMaxAge(60 * 60 * 24); // 一秒为单位
         // 设置有效路径，只有在设置的路径下才会在请求中加入cookie，默认是所有的都会加入
-        cookie.setPath("/result");
+        cookie.setPath("web/result");
         response.addCookie(cookie);
         response.addCookie(cookie2);
         response.getWriter().write("this is a Cookie test.\n");
