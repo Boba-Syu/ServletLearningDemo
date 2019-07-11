@@ -4,6 +4,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
 /**
@@ -14,8 +15,9 @@ public class MainServlet extends HttpServlet {
     protected void service(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
         request.setCharacterEncoding("utf-8"); // 设置接收过来的请求的编码
         response.setContentType("text/html;charset=utf-8"); // 设置发送的http请求编码
-        String uid = request.getParameter("uid");
-        String pwd = request.getParameter("pwd");
+        HttpSession session = request.getSession();
+        String uid = (String) session.getAttribute("uid");
+        String pwd = (String) session.getAttribute("pwd");
         System.out.println(uid + ": " + pwd);
         response.getWriter().write("<html>");
         response.getWriter().write("<head>");

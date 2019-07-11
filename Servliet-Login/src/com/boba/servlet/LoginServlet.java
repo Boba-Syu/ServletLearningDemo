@@ -4,6 +4,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
 /**
@@ -31,6 +32,9 @@ public class LoginServlet extends HttpServlet {
             // request.getRequestDispatcher("main").forward(request, response);
             // 使用重定向
             // 请求转发只进行了一次请求, 地址栏不变, 而重定向进行了两次请求, 地址栏改变
+            HttpSession session = request.getSession();
+            session.setAttribute("uid", uid);
+            session.setAttribute("pwd", pwd);
             response.sendRedirect("main");
         } else {
             request.setAttribute("msg","登录失败");
