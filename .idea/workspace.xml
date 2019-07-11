@@ -6,17 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e032cd8b-58be-446a-a8e4-b87716f631c2" name="Default Changelist" comment="登录界面用session存储登录信息">
-      <change afterPath="$PROJECT_DIR$/ServletCookieAndSesson/src/com/boba/servlet/context/ServletContextTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServletCookieAndSesson/src/com/boba/servlet/context/ServletResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServletCookieAndSesson/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ServletCookieAndSesson/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ServletCookieAndSesson_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ServletCookieAndSesson_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Servliet_Login_war_exploded/WEB-INF/classes/com/boba/servlet/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Servliet_Login_war_exploded/WEB-INF/classes/com/boba/servlet/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Servliet_Login_war_exploded/WEB-INF/classes/com/boba/servlet/MainServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Servliet_Login_war_exploded/WEB-INF/classes/com/boba/servlet/MainServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Servliet-Login/com/boba/servlet/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Servliet-Login/com/boba/servlet/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Servliet-Login/com/boba/servlet/MainServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Servliet-Login/com/boba/servlet/MainServlet.class" afterDir="false" />
-    </list>
+    <list default="true" id="e032cd8b-58be-446a-a8e4-b87716f631c2" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,8 +70,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ServletCookieAndSesson/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
+            <state relative-caret-position="349">
+              <caret line="48" column="44" lean-forward="true" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -90,7 +80,7 @@
         <entry file="file://$PROJECT_DIR$/ServletCookieAndSesson/src/com/boba/servlet/context/ServletContextTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+              <caret line="23" column="48" lean-forward="true" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,8 +91,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ServletCookieAndSesson/src/com/boba/servlet/context/ServletResult.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="255">
+              <caret line="17" column="55" lean-forward="true" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -134,8 +124,8 @@
         <option value="$PROJECT_DIR$/ServletCookieAndSesson/src/com/boba/servlet/session/ServletResult2.java" />
         <option value="$PROJECT_DIR$/Servliet-Login/src/com/boba/servlet/LoginServlet.java" />
         <option value="$PROJECT_DIR$/Servliet-Login/src/com/boba/servlet/MainServlet.java" />
-        <option value="$PROJECT_DIR$/ServletCookieAndSesson/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/ServletCookieAndSesson/src/com/boba/servlet/context/ServletContextTest.java" />
+        <option value="$PROJECT_DIR$/ServletCookieAndSesson/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/ServletCookieAndSesson/src/com/boba/servlet/context/ServletResult.java" />
       </list>
     </option>
@@ -451,7 +441,7 @@
       <option name="presentableId" value="Default" />
       <updated>1562736370183</updated>
       <workItem from="1562736371276" duration="2574000" />
-      <workItem from="1562740332071" duration="14692000" />
+      <workItem from="1562740332071" duration="15714000" />
     </task>
     <task id="LOCAL-00001" summary="cookie">
       <created>1562742579781</created>
@@ -488,14 +478,22 @@
       <option name="project" value="LOCAL" />
       <updated>1562837737016</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ServletContext存储全局信息">
+      <created>1562839746009</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1562839746009</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17266000" />
+    <option name="totallyTimeSpent" value="18288000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1177" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25239617" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -507,8 +505,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3299539" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3299539" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -538,7 +536,8 @@
     <MESSAGE value="cookie" />
     <MESSAGE value="session" />
     <MESSAGE value="登录界面用session存储登录信息" />
-    <option name="LAST_COMMIT_MESSAGE" value="登录界面用session存储登录信息" />
+    <MESSAGE value="ServletContext存储全局信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="ServletContext存储全局信息" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$PROJECT_DIR$/lib/javax.servlet.jar!/javax/servlet/http/HttpServletRequest.class">
@@ -614,15 +613,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ServletCookieAndSesson/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
+        <state relative-caret-position="349">
+          <caret line="48" column="44" lean-forward="true" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ServletCookieAndSesson/src/com/boba/servlet/context/ServletContextTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+          <caret line="23" column="48" lean-forward="true" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -631,8 +630,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ServletCookieAndSesson/src/com/boba/servlet/context/ServletResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="255">
+          <caret line="17" column="55" lean-forward="true" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
