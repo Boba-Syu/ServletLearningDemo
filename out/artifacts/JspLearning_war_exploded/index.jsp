@@ -22,3 +22,5 @@
   <jsp:include page="jspInclude.jsp"></jsp:include>
   </body>
 </html>
+<%-- JSP的forward转发, 相当于Servlet中的 request.getRequestDispatcher("forward.jsp").forward(request, response); --%>
+<jsp:forward page="forward.jsp"></jsp:forward>

@@ -22,3 +22,16 @@
   <jsp:include page="jspInclude.jsp"></jsp:include>
   </body>
 </html>
+<%-- JSP的forward转发, 相当于Servlet中的请求转发 request.getRequestDispatcher("forward.jsp").forward(request, response); --%>
+<%--<jsp:forward page="forward.jsp"></jsp:forward>--%>
+<%--JSP九大内置对象
+    pageContext: 管理其他八内置大对象
+    request: 客户端的请求信息
+    response: 队客户端的响应
+    application: 保存在服务器的信息
+    session: 用户不同请求的共享数据
+    out: 向浏览器内输出信息的缓冲区
+    config: 当前JSP的
+    page: 代表JSP本身, 类似于this指针
+    exception: 显示异常信息, 只有在isErrorPage="true"时使用
+--%>
