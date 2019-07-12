@@ -16,7 +16,9 @@
   </head>
   <body>
   <%= data %>
-  <%-- JSP的静态引入 --%>
+  <%-- JSP的静态引入, 编译成Servler时静态引入会将文件的内容也加进去 --%>
   <%@include file="includeStatic.jsp" %>
+  <%-- jsp的动态引入, 编译成Servler动态引入不会讲其加入进去, 而是方法的调用的方式引入, 动态引入允许声明同名变量 --%>
+  <jsp:include page="jspInclude.jsp"></jsp:include>
   </body>
 </html>
