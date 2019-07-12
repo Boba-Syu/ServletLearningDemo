@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <!-- servlet -->
+    <!-- 配置servlet类路径 -->
+    <servlet>
+        <servlet-name>demo</servlet-name>
+        <servlet-class>com.boba.servlet.MyServlet</servlet-class> <!--和自己写的类的路径一致-->
+    </servlet>
+    <!-- 配置访问方式 -->
+    <servlet-mapping>
+        <servlet-name>demo</servlet-name> <!-- 和<servlet>标签中的servelet-name要一致 -->
+        <url-pattern>/demo</url-pattern> <!-- 浏览器中输入的url中的有一部分:localhost:8080/web/myServlet -->
+    </servlet-mapping>
+</web-app>
