@@ -16,5 +16,7 @@
   </head>
   <body>
   <%= data %>
+  <%-- JSP的静态引入 --%>
+  <%@include file="includeStatic.jsp" %>
   </body>
 </html>

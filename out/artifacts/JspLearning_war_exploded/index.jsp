@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%-- jsp会被编译成Java的Servlet类, 然后被服务器加载 --%>
 
-<%! private String data = "This is a JSP  test."; // 这相当于Java中的全局变量, 写类的变量或者方法 %>
+<%! private String data = "This is a JSP  test."; // 这儿为Java中的全局代码块, 写类的变量或者方法 %>
 <% String title = "jsp学习"; // 这写的是Servlet中的代码 %>
 <html>
   <head>
@@ -16,5 +16,7 @@
   </head>
   <body>
   <%= data %>
+  <%-- JSP的静态引入 --%>
+  <%@include file="includeStatic.jsp" %>
   </body>
 </html>
