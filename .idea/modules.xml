@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/JspLearning/JspLearning.iml" filepath="$PROJECT_DIR$/JspLearning/JspLearning.iml" />
       <module fileurl="file://$PROJECT_DIR$/Servlet-HelloWorld/Servlet-HelloWorld.iml" filepath="$PROJECT_DIR$/Servlet-HelloWorld/Servlet-HelloWorld.iml" />
       <module fileurl="file://$PROJECT_DIR$/ServletCookieAndSesson/ServletCookieAndSesson.iml" filepath="$PROJECT_DIR$/ServletCookieAndSesson/ServletCookieAndSesson.iml" />
       <module fileurl="file://$PROJECT_DIR$/ServletGetAndPost/ServletGetAndPost.iml" filepath="$PROJECT_DIR$/ServletGetAndPost/ServletGetAndPost.iml" />

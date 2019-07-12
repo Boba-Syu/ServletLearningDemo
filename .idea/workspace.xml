@@ -2,11 +2,31 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="ServletCookieAndSesson:war exploded" />
+      <artifact name="JspLearning:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e032cd8b-58be-446a-a8e4-b87716f631c2" name="Default Changelist" comment="" />
+    <list default="true" id="e032cd8b-58be-446a-a8e4-b87716f631c2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/JspLearning_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JspLearning/JspLearning.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JspLearning/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JspLearning/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JspLearning_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JspLearning_war_exploded/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ServletCookieAndSesson_war_exploded/WEB-INF/classes/com/boba/servlet/context/ServletContextTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ServletCookieAndSesson_war_exploded/WEB-INF/classes/com/boba/servlet/context/ServletResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Servlet_HelloWorld_war_exploded/WEB-INF/classes/com/boba/servlet/MyServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Servlet_HelloWorld_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Servlet_HelloWorld_war_exploded/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Servlet-HelloWorld/classes/com/boba/servlet/MyServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ServletCookieAndSesson/com/boba/servlet/context/ServletContextTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ServletCookieAndSesson/com/boba/servlet/context/ServletResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ServletCookieAndSesson/com/boba/servlet/servletConfig/ServletConfigTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ServletGetAndPost/com/boba/servlet/ServletGetAndPost.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ServletCookieAndSesson/META-INF/ServletCookieAndSesson.kotlin_module" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,85 +39,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ServletCookieAndSesson/src/com/boba/servlet/cookie/ServletCookie.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ServletCookieAndSesson/src/com/boba/servlet/cookie/ServletResult.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ServletCookieAndSesson/src/com/boba/servlet/session/ServletSession.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ServletCookieAndSesson/src/com/boba/servlet/session/ServletResult2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ServletCookieAndSesson/web/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="48" column="44" lean-forward="true" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ServletCookieAndSesson/src/com/boba/servlet/context/ServletContextTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="48" lean-forward="true" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ServletCookieAndSesson/src/com/boba/servlet/context/ServletResult.java">
+        <entry file="file://$PROJECT_DIR$/JspLearning/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="55" lean-forward="true" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="150">
+              <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JspLearning/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -127,6 +80,8 @@
         <option value="$PROJECT_DIR$/ServletCookieAndSesson/src/com/boba/servlet/context/ServletContextTest.java" />
         <option value="$PROJECT_DIR$/ServletCookieAndSesson/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/ServletCookieAndSesson/src/com/boba/servlet/context/ServletResult.java" />
+        <option value="$PROJECT_DIR$/ServletCookieAndSesson/src/com/boba/servlet/servletConfig/ServletConfigTest.java" />
+        <option value="$PROJECT_DIR$/JspLearning/web/index.jsp" />
       </list>
     </option>
   </component>
@@ -155,6 +110,24 @@
             <path>
               <item name="ServletLearningDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="ServletLearningDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ServletLearningDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ServletLearningDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="JspLearning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ServletLearningDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ServletLearningDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="JspLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ServletLearningDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ServletLearningDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="JspLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ServletLearningDemo" type="b2602c69:ProjectViewProjectNode" />
@@ -189,6 +162,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="servlet" type="462c0819:PsiDirectoryNode" />
               <item name="cookie" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ServletLearningDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ServletLearningDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="ServletCookieAndSesson" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+              <item name="session" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ServletLearningDemo" type="b2602c69:ProjectViewProjectNode" />
@@ -263,12 +244,13 @@
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.21" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.21" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/JspLearning_war_exploded/" />
       <option name="START_JAVASCRIPT_DEBUGGER" value="true" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="ServletCookieAndSesson:war exploded">
+        <artifact name="JspLearning:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/" />
+            <option name="CONTEXT_PATH" value="/JspLearning_war_exploded" />
           </settings>
         </artifact>
       </deployment>
@@ -331,7 +313,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="ServletCookieAndSesson:war exploded" />
+          <artifact name="JspLearning:war exploded" />
         </option>
       </method>
     </configuration>
@@ -441,7 +423,7 @@
       <option name="presentableId" value="Default" />
       <updated>1562736370183</updated>
       <workItem from="1562736371276" duration="2574000" />
-      <workItem from="1562740332071" duration="15714000" />
+      <workItem from="1562740332071" duration="20365000" />
     </task>
     <task id="LOCAL-00001" summary="cookie">
       <created>1562742579781</created>
@@ -485,17 +467,23 @@
       <option name="project" value="LOCAL" />
       <updated>1562839746009</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ServletConfig">
+      <created>1562841688851</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1562841688851</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18288000" />
+    <option name="totallyTimeSpent" value="22939000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1177" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25239617" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25239617" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -506,7 +494,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3299539" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -537,7 +525,8 @@
     <MESSAGE value="session" />
     <MESSAGE value="登录界面用session存储登录信息" />
     <MESSAGE value="ServletContext存储全局信息" />
-    <option name="LAST_COMMIT_MESSAGE" value="ServletContext存储全局信息" />
+    <MESSAGE value="ServletConfig" />
+    <option name="LAST_COMMIT_MESSAGE" value="ServletConfig" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$PROJECT_DIR$/lib/javax.servlet.jar!/javax/servlet/http/HttpServletRequest.class">
@@ -614,14 +603,14 @@
     <entry file="file://$PROJECT_DIR$/ServletCookieAndSesson/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="349">
-          <caret line="48" column="44" lean-forward="true" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
+          <caret line="48" column="44" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ServletCookieAndSesson/src/com/boba/servlet/context/ServletContextTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="23" column="48" lean-forward="true" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+          <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -631,10 +620,30 @@
     <entry file="file://$PROJECT_DIR$/ServletCookieAndSesson/src/com/boba/servlet/context/ServletResult.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" column="55" lean-forward="true" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+          <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ServletCookieAndSesson/src/com/boba/servlet/servletConfig/ServletConfigTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JspLearning/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JspLearning/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
         </state>
       </provider>
     </entry>
