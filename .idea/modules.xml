@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/ServletLearningDemo.iml" filepath="$PROJECT_DIR$/ServletLearningDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Servliet-Login/Servliet-Login.iml" filepath="$PROJECT_DIR$/Servliet-Login/Servliet-Login.iml" />
       <module fileurl="file://$PROJECT_DIR$/servlet-Filter/servlet-Filter.iml" filepath="$PROJECT_DIR$/servlet-Filter/servlet-Filter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/servletListener/servletListener.iml" filepath="$PROJECT_DIR$/servletListener/servletListener.iml" />
     </modules>
   </component>
 </project>
